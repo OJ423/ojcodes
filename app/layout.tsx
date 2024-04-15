@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ojcodes.co.uk'),
+  metadataBase: new URL('https://ojcodes.vercel.app/'),
   alternates: {
     canonical: '/',
     languages: {
