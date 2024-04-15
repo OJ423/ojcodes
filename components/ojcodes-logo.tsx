@@ -6,7 +6,7 @@ export default function OjCodesLogo() {
     <div className="static h-auto w-auto bg-none">
       <Link href="/">
         <div
-          className="pointer-events-none flex place-items-center gap-2 p-4 lg:pointer-events-auto lg:p-0"
+          className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0"
           href="/"
         >
           <Image

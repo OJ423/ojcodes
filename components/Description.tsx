@@ -22,7 +22,7 @@ const Description = ({ activeImage, clickNext, clickPrev }: Props) => {
           key={idx}
           className={`${
             idx === activeImage
-              ? "block w-full h-full md:h-[50vh] py-8 px-0 lg:px-12 px-10 text-left"
+              ? "block w-full h-full md:h-auto py-8 px-0 lg:px-12 px-2 text-left"
               : "hidden"
           }`}
         >

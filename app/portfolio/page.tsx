@@ -1,13 +1,21 @@
+import MobileNavigation from '@/components/MobileNavigation';
 import BottomNavigation from '@/components/bottom-navigation'
 import HireMeButton from '@/components/hire-me-button';
 import OjCodesLogo from "@/components/ojcodes-logo";
 import PortfolioCarousel from '@/components/portfolio-carousel';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Software Engineer Portfolio",
+  description: "Check out my full-stack development work in my portfolio with links to demos and GitHub repos",
+};
 
 export default function Portfolio() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-5 sm:p-12 ">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm flex">
         <HireMeButton/>
+        <MobileNavigation/>
         <OjCodesLogo/>
       </div>
 

@@ -23,7 +23,7 @@ const PortfolioCarousel = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       clickNext();
-    }, 10000 );
+    }, 15000 );
     return () => {
       clearTimeout(timer);
     };
