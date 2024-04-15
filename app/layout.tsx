@@ -5,8 +5,18 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://ojcodes.co.uk'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-GB': '/en-GB',
+    },
+  },
   title: "Oliver Smith Software Engineer",
   description: "I'm Oliver and I'm a full-stack software engineer and available for work.",
+  openGraph: {
+    images:'/opengraph-image.png'
+  }
 };
 
 export default function RootLayout({

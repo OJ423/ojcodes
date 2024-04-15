@@ -22,7 +22,7 @@ const Description = ({ activeImage, clickNext, clickPrev }: Props) => {
           key={idx}
           className={`${
             idx === activeImage
-              ? "block w-full h-full md:h-auto py-8 px-0 lg:px-12 px-2 text-left"
+              ? "block w-full h-full md:h-auto py-8 lg:py-0 px-0 lg:px-12 px-2 text-left"
               : "hidden"
           }`}
         >
@@ -42,7 +42,7 @@ const Description = ({ activeImage, clickNext, clickPrev }: Props) => {
             }}
             className="w-full"
           >
-            <div className="pb-8 text-3xl lg:text-5xl font-extrabold">{elem.title}</div>
+            <div className="pb-8 text-3xl lg:text-4xl font-extrabold">{elem.title}</div>
             <div className="leading-relaxed font-medium text-base tracking-wide h-auto">
               {" "}
               {elem.desc}

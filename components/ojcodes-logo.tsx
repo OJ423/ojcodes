@@ -6,9 +6,7 @@ export default function OjCodesLogo() {
     <div className="static h-auto w-auto bg-none">
       <Link href="/">
         <div
-          className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0"
-          href="/"
-        >
+          className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0">
           <Image
           src="/ojcodes-logo.svg"
           alt="OJ Codes Logo"
@@ -16,6 +14,7 @@ export default function OjCodesLogo() {
           width={50}
           height={12}
           priority
+          style={{height:'auto'}}
         />
       </div>
     </Link>

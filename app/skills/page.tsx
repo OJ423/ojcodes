@@ -19,7 +19,7 @@ export default function Skills() {
       </header>
       <section className="max-w-screen-lg grid gap-12 grid-cols-1 md:grid-cols-2 relative flex place-items-start before:absolute before:h-[300px] before:w-full sm:before:w-[480px] pt-10 pb-10 sm:py-10">
         <div>
-          <h1 className="text-3xl mb-4 sm:text-5xl text-left font-black">I have a wide range of <span className="text-teal-500">skills</span> and a wealth of business <span className="text-teal-500">experience</span></h1>
+          <h1 className="text-3xl mb-4 sm:text-4xl text-left font-black">I have a wide range of <span className="text-teal-500">skills</span> and a wealth of business <span className="text-teal-500">experience</span></h1>
           <p className="mb-4 text-lg">Having worked for technology start-ups, fast-fashion companies and blue-chip organisations I have over 25 years&apos; experience for you to use. Prior to software engineering, I was in marketing and business development and with this experience I can help bridge user and developer communication.</p>
           <p className="mb-4 text-lg">I am a full-stack developer comfortable with both backend and front-end development. My software development skills are based on industry standards and readable code so that any coders further down the line can understand and build upon my code.</p>
         </div>
