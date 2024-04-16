@@ -24,8 +24,8 @@ export default function Skills() {
           <p className="mb-4 text-lg">I am a full-stack developer comfortable with both backend and front-end development. My software development skills are based on industry standards and readable code so that any coders further down the line can understand and build upon my code.</p>
         </div>
         <section className="text-left">
-          <h2 className="text-3xl font-black mb-4">Skills</h2>
-          <h3 className="text-2xl font-bold mb-2">Languages</h3>
+          <h2 className="text-2xl font-black mb-4">Skills</h2>
+          <h3 className="text-xl font-bold mb-2">Languages</h3>
           <span className="inline-block me-2 mb-2 px-4 bg-teal-500 text-black rounded-full">
             <p className="font-bold text-center">JavaScript</p>
           </span>
@@ -41,7 +41,7 @@ export default function Skills() {
           <span className="inline-block me-2 mb-2 px-4 bg-teal-500 text-black rounded-full">
             <p className="font-bold text-center">C#</p>
           </span>
-          <h3 className="text-2xl font-bold mt-4 mb-2">Backend</h3>
+          <h3 className="text-xl font-bold mt-2 mb-2">Backend</h3>
           <span className="inline-block me-2 mb-2 px-4 bg-teal-500 text-black rounded-full">
             <p className="font-bold text-center">HTTP Server</p>
           </span>
@@ -69,7 +69,7 @@ export default function Skills() {
           <span className="inline-block me-2 mb-2 px-4 bg-teal-500 text-black rounded-full">
             <p className="font-bold text-center">Axios</p>
           </span>
-          <h3 className="text-2xl font-bold mt-4 mb-2">Front-End</h3>
+          <h3 className="text-xl font-bold mt-2 mb-2">Front-End</h3>
           <span className="inline-block me-2 mb-2 px-4 bg-teal-500 text-black rounded-full">
             <p className="font-bold text-center">React</p>
           </span>
@@ -94,7 +94,7 @@ export default function Skills() {
           <span className="inline-block me-2 mb-2 px-4 bg-teal-500 text-black rounded-full">
             <p className="font-bold text-center">Adobe Creative Cloud</p>
           </span>
-          <h3 className="text-2xl font-bold mb-2 mt-4">Development Principles</h3>
+          <h3 className="text-2xl font-bold mb-2 mt-2">Development Principles</h3>
           <span className="inline-block me-2 mb-2 px-4 bg-teal-500 text-black rounded-full">
             <p className="font-bold text-center">OOP</p>
           </span>

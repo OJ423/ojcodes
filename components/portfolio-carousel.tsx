@@ -23,7 +23,7 @@ const PortfolioCarousel = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       clickNext();
-    }, 18000 );
+    }, 1800000 );
     return () => {
       clearTimeout(timer);
     };
@@ -38,7 +38,7 @@ const PortfolioCarousel = () => {
             key={idx}
             className={`${
               idx === activeImage
-                ? "block w-full h-[30vh] lg:h-[40vh] object-cover transition-all duration-500 ease-in-out"
+                ? "block w-full h-[30vh] lg:h-[45vh] object-cover transition-all duration-500 ease-in-out"
                 : "hidden"
             }`}
           >
@@ -47,7 +47,7 @@ const PortfolioCarousel = () => {
               alt={elem.alt_text}
               width={400}
               height={400}
-              className="w-full h-[30vh] lg:h-[40vh] object-cover rounded-tl-3xl rounded-tr-3xl lg:rounded-tl-3xl lg:rounded-bl-3xl lg:rounded-tr-none"
+              className="w-full h-[30vh] lg:h-[45vh] object-cover rounded-tl-3xl rounded-tr-3xl lg:rounded-tl-3xl lg:rounded-bl-3xl lg:rounded-tr-none"
             />
           </div>
         ))}

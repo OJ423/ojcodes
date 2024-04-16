@@ -19,7 +19,7 @@ export default function Contact() {
         <OjCodesLogo/>
       </div>
 
-      <div className="relative grid grid-cols-1 place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] pt-10 pb-4">
+      <div className="relative grid grid-cols-1 place-items-center pt-10 pb-4">
         <h1 className='text-3xl sm:text-4xl lg:text-6xl text-center font-black'>Get in <span className="text-teal-500">Touch</span></h1>
       </div>
       <Form />
